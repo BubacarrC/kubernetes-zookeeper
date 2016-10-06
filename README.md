@@ -24,4 +24,17 @@ So, if you are happy with the default, just run the container to get Zookeeper i
 
 To run a cluster just set more ```ZOOKEEPER_SERVER_X``` environment variables (replace ```X``` with the respective id) set to the respective ip.
 
+## Run on kubernetes:
+
+Create kubernetes zookeeper replication controller.
+
+```
+# kubectl create -f zoo-rc.yaml
+```
+
+Create kubernetes zookeeper service.
+
+```
+# kubectl create -f zoo-service.yaml
+```
 **Note:** A more dynamic configuration is not possible with Zookeeper 3.4 which might change with v3.5.
