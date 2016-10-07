@@ -17,7 +17,8 @@ RUN curl -L https://github.com/tianon/gosu/releases/download/1.6/gosu-amd64 -o /
 
 ENV ZOOKEEPER_VERSION 3.4.6
 
-ADD ./src /
+RUN mkdir -p /usr/local/sbin
+COPY src/usr/local/sbin/start.sh /usr/local/sbin/start.sh
 
 RUN chmod +x /usr/local/sbin/start.sh
 
