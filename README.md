@@ -37,4 +37,21 @@ Create kubernetes zookeeper service.
 ```
 # kubectl create -f zoo-service.yaml
 ```
+
+## Run on docker cli:
+
+Docker run from master image
+
+```
+docker run \
+-d --name zookeeper taeminkwon/kubernetes-zookeeper
+```
+
+Docker run from 3.4.6 image
+
+```
+docker run \
+-d --name zookeeper taeminkwon/kubernetes-zookeeper:3.4.6
+```
+
 **Note:** A more dynamic configuration is not possible with Zookeeper 3.4 which might change with v3.5.
