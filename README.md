@@ -4,6 +4,16 @@
 
 [Docker](http://www.docker.com/) image based on [digitalwonderland/base](https://registry.hub.docker.com/u/digitalwonderland/base/)
 
+## Verification environment
+
+* Ubuntu 16.04.1 LTS (Xenial Xerus)
+* Docker version 1.12.1, build 23cf638
+* VirtualBox 5.0.20 r106931
+* Vagrant 1.8.4
+* coreos-kubernetes vagrant info
+  - https://github.com/coreos/coreos-kubernetes
+  - https://github.com/coreos/coreos-kubernetes/tree/master/multi-node/vagrant
+
 ## Additional Software:
 
 * [Apache ZooKeeper](http://zookeeper.apache.org/)
