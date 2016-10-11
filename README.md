@@ -1,6 +1,6 @@
 ## About:
 
-## forked from [digital-wonderland/docker-zookeeper](https://github.com/digital-wonderland/docker-zookeeper)
+### forked from [digital-wonderland/docker-zookeeper](https://github.com/digital-wonderland/docker-zookeeper)
 
 [Docker](http://www.docker.com/) image based on [digitalwonderland/base](https://registry.hub.docker.com/u/digitalwonderland/base/)
 
