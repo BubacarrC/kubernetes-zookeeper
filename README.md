@@ -1,6 +1,6 @@
 ## About:
 
-## forked from [CloudTrackInc/kubernetes-kafka](https://github.com/CloudTrackInc/kubernetes-kafka)
+## forked from [digital-wonderland/docker-zookeeper](https://github.com/digital-wonderland/docker-zookeeper)
 
 [Docker](http://www.docker.com/) image based on [digitalwonderland/base](https://registry.hub.docker.com/u/digitalwonderland/base/)
 
